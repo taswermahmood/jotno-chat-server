@@ -1,0 +1,27 @@
+{
+  "name": "jotno-chat-server",
+  "version": "1.0.0",
+  "description": "Chat server for Jotno App",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taswermahmood@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.11.25",
+    "@types/pg": "^8.11.2",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "expo-server-sdk": "^3.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  }
+}
